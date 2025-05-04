@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #0e0d5f; */
+    background-color: #000;
+    color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 130px;
+}
+
+a {
+    
+    color: #e3e3e3;
+}
+
+a:hover {
+    color: #da22ff;
+}
+
+h1 {
+    font-size: 2.7rem;
+    background: linear-gradient(to bottom, #fff, #9a77ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+h1 span {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #de22ff;
+    font-weight: 800;
+}
+
+
+h2 {
+    font-size: 1.9rem;
+    font-weight: normal;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 15px 30px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #4f46e5;
+    color: #fff;
+    width: 20%;
+    margin: 8px;
+    margin-top: 15px;
+}
+
+button:hover {
+    box-shadow: 0 4px 10px rgba(0, 91, 187, 0.4);
+    background: linear-gradient(to right, #4f46e5, #6d28d9);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+
+}
+
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #da22ff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 110px;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input,
+textarea {
+    background-color: #ccc;
+    backdrop-filter: blur(50px);
+}
+
+input:-webkit-autofill {
+    background-color: #ccc !important;
+    /* Autofill background fix */
+    -webkit-box-shadow: 0 0 0px 1000px #ccc inset !important;
+}
+
+#text {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+input,
+.btn1,
+#text {
+    width: 100%;
+    padding: 12px;
+    margin: 7px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    text-align: left;
+    /* Cursor left se start hoga */
+    text-indent: 0px;
+    /* Extra spacing remove karega */
+    box-sizing: border-box;
+
+}
+
+
+::placeholder {
+    text-align: left;
+    /* Placeholder bhi left hoga */
+    text-indent: 0px;
+    /* Extra space hatane ke liye */
+    color: #333232;
+    font-size: 15px;
+}
+
+.link1,
+.link2 {
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.links {
+    margin-top: 80px;
+}
+
+.btn1 {
+    cursor: pointer;
+    background-color: #4f46e5;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.login-container .signup-container h2 {
+    font-size: 2.0rem;
+}
+
+.signup-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.both-container {
+    width: 100%;
+    max-width: 400px;
+    /* Dono pages pe same width */
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+i {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #747373;
+}
+
+i:hover {
+    color: #000;
+}
+
+.password-container {
+    position: relative;
+}
+
+.features {
+    padding: 70px 20px;
+    text-align: center;
+    /* background-color: #181673; */
+    background-color: #161616;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    overflow-x: auto;
+
+
+
+}
+
+.feature {
+    width: 250px;
+    min-height: 150px;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    margin: 3px;
+    border: 2px solid #747373;
+    /* border-image: linear-gradient(90deg, cyan, blue) 1; */
+}
+
+.feature h3,
+p {
+    padding-top: 32px;
+}
+
+footer {
+    padding-top: 40px;
+    padding-bottom: 12px;
+    font-weight: 100;
+    font-size: 13px;
+    background-color: #161616;
+
+}
+
+h3 {
+    color: #da22ff;
+}
+
+p {
+    padding: 3px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+    border: 2px solid #747373;
+    border-radius: 8px;
+}
+
+.contact-info {
+    width: 35%;
+    padding: 40px;
+    background-color: #161616;
+    border-radius: 10px;
+
+}
+
+.user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 45%;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+
+.user-form input,
+.message-box textarea,
+button {
+    width: 100%;
+    padding: 28px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.message-box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.data {
+    padding: 3px;
+    text-align: center;
+}
+
+.contact-info h3 {
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.contact-info p {
+    font-weight: 200;
+}
+
+.main,
+p {
+    text-align: center;
+
+}
+
+.main h2 {
+    background: linear-gradient(to bottom, #fff, #9a77ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
+
+.about-head,
+p {
+    text-align: center;
+}
+
+.about-head h1 {
+    margin-bottom: 15px;
+}
+
+.about {
+    padding-top: 30px;
+}
+
+.main {
+    margin-top: -20px;
+}
+
+
+
+.forgot-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forgot-form h4,
+p {
+    display: flex;
+    flex-direction: column;
+}
+
+.forgot-form {
+    padding: 42px;
+}
+
+.forgot-form button {
+    margin: 7px;
+}
+
+.forgot-page {
+    padding: 70px;
+}
+
+.forgot-page h2 {
+    margin-bottom: 4px;
+}
+
+.forgot-page p {
+    margin-top: 0px;
+}
+
