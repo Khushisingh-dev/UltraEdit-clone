@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-
 body {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
@@ -38,14 +36,7 @@ li {
     padding: 20px;
     font-family: 'Segoe UI';
     font-size: 14px;
-
-
 }
-
-
-
-
-
 
 .first {
     display: flex;
@@ -115,27 +106,27 @@ li {
 
 }
 
-    .container {
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-    }
-    h1 {
-        font-size: 40px;
-        font-weight: 300;
-        margin: 12px;
-        padding: 6px;
-        text-align: center;
-        margin-top: 8%;
-    
-    }
-    
-    h3 {
-        font-size: 20px;
-        color: rgb(17, 16, 16);
-        font-weight: 300;
-        text-align: center;
-        flex-wrap: wrap;
-        margin-left: 150px;
-        margin-right: 150px;
-    }
-    
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+    margin: 12px;
+    padding: 6px;
+    text-align: center;
+    margin-top: 8%;
+
+}
+
+h3 {
+    font-size: 20px;
+    color: rgb(17, 16, 16);
+    font-weight: 300;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-right: 150px;
+}
